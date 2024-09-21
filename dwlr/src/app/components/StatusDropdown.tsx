@@ -1,5 +1,5 @@
 import React from 'react'
-import { ChevronDown } from "lucide-react"
+
 import { Button } from "@/components/ui/button"
 import {
   Select,
@@ -16,11 +16,7 @@ import {
 } from "@/components/ui/card"
 
 const StatusDropdown= () => {
-  const handleSubmit = (e:React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted")
-  }
+  
 
   return (
     <Card className="w-[700px] h-[400px] items-center ">

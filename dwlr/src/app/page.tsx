@@ -15,13 +15,10 @@ export default function Login() {
   return (
     <div className="flex flex-col h-screen">
       <Navbar />
-      <div className="flex flex-1 flex-col md:flex-row">
-        <div className="flex justify-center items-center w-full md:w-1/2 bg-gray-200">
-          <div className="w-full max-w-md p-4">
-            {/* Carousel will be hidden on screens smaller than md */}
-            <div className="hidden md:block">
-              <CarouselComponent />
-            </div>
+      <div className="flex flex-1 md:flex-row">
+        <div className="flex justify-center items-center  w-full md:w-1/2 bg-gray-200">
+          <div className="w-full h-full">
+            <CarouselComponent />
           </div>
         </div>
         <div className="flex justify-center items-center w-full md:w-1/2 bg-gray-100">
